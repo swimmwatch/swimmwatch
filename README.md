@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Django, FastAPI, Docker**
 
-- 📫 How to reach me **contact.vasiliev.dmitry@gmail.com**
+- 📫 How to reach me: Telegram - [@contact_dmitry_vasiliev](https://t.me/contact_dmitry_vasiliev)
 
 - 📄 Know about my experiences [https://bit.ly/3xwTHvg](https://bit.ly/3xwTHvg)
 
