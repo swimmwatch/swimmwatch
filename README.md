@@ -1,5 +1,6 @@
 <h1 align="center">Hi 👋, I'm Dmitry</h1>
 <h3 align="center">Python web-developer</h3>
+
 - 🔭 I’m currently working on [Telegram Assistant](https://github.com/swimmwatch/my-telegram-assistant)
 
 - 🌱 I’m currently learning **FastAPI, Django, Docker**
