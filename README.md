@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on [Telegram Assistant](https://github.com/swimmwatch/my-telegram-assistant)
 
-- 🌱 I’m currently learning **FastAPI, Django, Docker**
+- 🌱 I’m currently learning **DevOps, ML, NoSQL Databases**
 
 - 📫 How to reach me: Telegram - [@contact_vasiliev_dmitry](https://t.me/contact_vasiliev_dmitry)
 
