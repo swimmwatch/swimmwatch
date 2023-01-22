@@ -1,15 +1,13 @@
 <h1 align="center">Hi 👋, I'm Dmitry</h1>
 <h3 align="center">Python Software Engineer</h3>
 
-- 🔭 I’m currently working on [Telegram Assistant](https://github.com/swimmwatch/my-telegram-assistant)
-
-- 🌱 I’m currently learning **DevOps, ML, NoSQL Databases**
-
-- 📫 How to reach me: Telegram - [@contact_vasiliev_dmitry](https://t.me/contact_vasiliev_dmitry)
-
-- 📄 Know about my experiences [https://bit.ly/3xwTHvg](https://bit.ly/3xwTHvg)
-
-- ⚡ Fun fact **My best bench press is 180 kg**
+- Developing as a Python Backend developer. I plan to grow to Tech Lead.
+- Keep a balance between quality and productivity. I take initiative in development.
+- I take criticism calmly. Always happy to hear/give feedback.
+- I regularly attend training courses. I watch reports from various IT conferences (I plan to speak in the future). I spend time developing Soft skills.
+- Open to new technologies/stack. I quickly learn something new.
+- I consider it important to contribute to open source projects (find bugs, fix architectural flaws).
+- Hobbies: development of open-source projects, gym (powerlifting), PlayStation.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
