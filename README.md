@@ -20,4 +20,4 @@
 
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=swimmwatch&show_icons=true&locale=en&layout=compact" alt="swimmwatch" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=swimmwatch&show_icons=true&locale=en" alt="swimmwatch" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=swimmwatch&show_icons=true&locale=en&hide_rank=true" alt="swimmwatch" /></p>
