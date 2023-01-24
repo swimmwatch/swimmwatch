@@ -11,6 +11,7 @@
 
 <h3 align="left">Work Profiles:</h3>
 <p align="left">
+<a href="https://hh.ru/resume/6e603952ff0b05b29a0039ed1f774451306375" target="_blank" rel="noreferrer"> <img src="https://hh.ru/employer-logo/3823740.png" alt="head hunter" width="40" height="40"/> </a>
 <a href="https://career.habr.com/swimmwatch" target="_blank" rel="noreferrer"> <img src="https://hh.ru/employer-logo/3823740.png" alt="habr carerr" width="40" height="40"/> </a>
 </p>
 
