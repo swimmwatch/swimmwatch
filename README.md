@@ -13,6 +13,7 @@
 <p align="left">
 <a href="https://hh.ru/resume/6e603952ff0b05b29a0039ed1f774451306375" target="_blank" rel="noreferrer"> <img src="https://i.hh.ru/logos/svg/hh.ru__min_.svg?v=11032019" alt="head hunter" width="40" height="40"/> </a>
 <a href="https://career.habr.com/swimmwatch" target="_blank" rel="noreferrer"> <img src="https://hh.ru/employer-logo/3823740.png" alt="habr carerr" width="40" height="40"/> </a>
+<a href="https://www.linkedin.com/in/dmitry-vasiliev/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/640px-LinkedIn_logo_initials.png" alt="habr carerr" width="40" height="40"/> </a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
