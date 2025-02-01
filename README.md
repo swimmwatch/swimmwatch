@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Dmitry</h1>
-<h3 align="center">Python Software Engineer</h3>
+<h3 align="center">Software Engineer</h3>
 
 - Developing as a Python Backend developer. I plan to grow to Tech Lead.
 - Keep a balance between quality and productivity. I take initiative in development.
@@ -22,3 +22,9 @@
 <p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=swimmwatch&show_icons=true&locale=en&layout=compact" alt="swimmwatch" /></p>
 
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=swimmwatch&show_icons=true&locale=en&hide_rank=true" alt="swimmwatch" /></p>
+
+<h2 align="left">Articles:</h2>
+<h3 align="left">Russian</h3>
+<ul>
+  <li><a href="https://habr.com/ru/companies/doubletapp/articles/877524/?code=500dbeb6f63b7232b751e6cdbe8c1488&state=6p2hjKGcY4xtuOUMPLFzSc57&hl=ru" target="_blank">Как запоминать и не забывать: применяем и автоматизируем Spaced Repetition System</a></li>
+</ul>
