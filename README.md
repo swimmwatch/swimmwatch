@@ -21,6 +21,7 @@
 <ul>
   <li><a href="https://habr.com/ru/companies/doubletapp/articles/877524/?code=500dbeb6f63b7232b751e6cdbe8c1488&state=6p2hjKGcY4xtuOUMPLFzSc57&hl=ru" target="_blank">Как запоминать и не забывать: применяем и автоматизируем Spaced Repetition System</a></li>
   <li><a href="https://habr.com/ru/companies/doubletapp/articles/917286/" target="_blank">От кнопки до продакшена: как мы делаем Telegram Mini Apps</a></li>
+  <li><a href="https://habr.com/ru/companies/doubletapp/articles/928874/" target="_blank">Меньше нагрузки — больше запросов: искусство кеширования API</a></li>
 </ul>
 <h4 align="left">English</h4>
 <ul>
