@@ -27,6 +27,7 @@
 <ul>
   <li><a href="https://doubletapp.medium.com/how-to-remember-and-not-forget-implementing-and-automating-the-spaced-repetition-system-4c011afff83e" target="_blank">How to Remember and Not Forget: Implementing and Automating the Spaced Repetition System</a></li>
   <li><a href="https://doubletapp.medium.com/from-a-button-to-production-how-we-build-telegram-mini-apps-c73e0c3a72c6" target="_blank">From a Button to Production: How We Build Telegram Mini Apps</a></li>
+  <li><a href="https://doubletapp.medium.com/less-load-more-requests-the-art-of-api-caching-33fce4aa5b2e" target="_blank">Less Load — More Requests: The Art of API Caching</a></li>
 </ul>
 
 <h3 align="left">Languages and Tools:</h3>
