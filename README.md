@@ -36,9 +36,6 @@
   <a href="https://career.habr.com/swimmwatch">
     <img alt="Habr Career" src="https://img.shields.io/badge/Habr%20Career-swimmwatch-111827?style=for-the-badge" />
   </a>
-  <a href="https://set.ki/6pkfpHC">
-    <img alt="Setka" src="https://img.shields.io/badge/Setka-Profile-6366f1?style=for-the-badge" />
-  </a>
 </p>
 
 ---
@@ -68,17 +65,6 @@ My next step is **Tech Lead** — mentoring, engineering standards, and shipping
 **Observability:** Prometheus · Grafana · Alertmanager · Loki  
 **LLM tooling:** LangChain · LangGraph  
 **Testing:** Pytest · Selenium · Playwright
-
----
-
-## 🚀 Impact highlights
-
-- **-50% time to write tests** by introducing **LLM-assisted test generation**
-- **-30% code review time** by automating PR checks (**Danger**: style, changelog, errors, summary)
-- **+50% faster CI** via parallel tests, job optimization and caching (incl. mypy cache)
-- Built multi-level caching (**Redis + browser**) + **HTTP Conditional Requests** → stable under **thousands of users**
-- Introduced **monorepo** approach for VK/Telegram Mini Apps → faster development & reuse
-- Reduced security risk & tech debt: **temporary links** feature + automated dependency updates
 
 ---
 
