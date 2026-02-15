@@ -86,13 +86,6 @@ My next step is **Tech Lead** — mentoring, engineering standards, and shipping
 
 I maintain a few open-source tools that I originally built to solve real engineering problems: **security**, **API governance**, **automation**, and **developer productivity**.
 
-**What I build (open source)**
-- **Python libraries for Mini Apps authentication** (Telegram & VK): secure validation flow, type hints, tests, and developer-friendly docs.
-- **GitHub Actions for OpenAPI governance**: detect breaking changes, compare spec versions, and suggest the right **SemVer bump** as part of CI.
-- A lightweight **Django Ninja caching** integration built on top of the standard Django cache backend (useful for read-heavy endpoints).
-- **Playwright testing utilities** for Python: helpers to work with **LocalStorage/SessionStorage** in E2E tests.
-- Automation tooling: a **web page change detection** Action that can track updates and trigger notifications / issues in a repo.
-
 If you maintain a backend project and want a contributor — **let’s talk**.
 
 ---
