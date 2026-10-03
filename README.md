@@ -42,7 +42,7 @@
 
 ## 👋 About me
 
-I’m a **Software Engineer (3+ years)** focused on backend development: **architecture, performance, reliability**, and developer productivity.  
+I’m a **Software Engineer (4+ years)** focused on backend development: **architecture, performance, reliability**, and developer productivity.  
 My next step is **Tech Lead** — mentoring, engineering standards, and shipping sustainable systems.
 
 **What I build**
