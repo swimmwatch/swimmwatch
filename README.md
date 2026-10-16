@@ -1,20 +1,20 @@
 <p>
 <picture>
-  <source media="(max-width: 480px)" srcset="./profile/banner-mobile-dark.svg?v=2" />
-  <source media="(max-width: 600px)" srcset="./profile/banner-mobile-wide-dark.svg?v=2" />
-  <img src="./profile/banner-dark.svg?v=2" alt="Dmitry Vasiliev — Backend Engineer. Architecture, AI and developer tools. Animated backend architecture with public GitHub metrics and repository languages." width="100%" />
+  <source media="(max-width: 480px)" srcset="./profile/banner-mobile-dark.svg?v=4" />
+  <source media="(max-width: 600px)" srcset="./profile/banner-mobile-wide-dark.svg?v=4" />
+  <img src="./profile/banner-dark.svg?v=4" alt="Dmitry Vasiliev — Backend Engineer. Architecture, AI and developer tools. Animated backend architecture, including AI agents and an LLM, with public GitHub metrics and repository languages." width="100%" />
 </picture>
 </p>
 
 <p>
-  <a href="https://t.me/contact_vasiliev_dmitry"><img src="./profile/contact-telegram.svg" alt="Telegram" width="114" height="40" /></a>
-  <a href="mailto:contact.vasiliev.dmitry@gmail.com"><img src="./profile/contact-email.svg" alt="Email" width="92" height="40" /></a>
-  <a href="https://www.linkedin.com/in/dmitry-vasiliev/"><img src="./profile/contact-linkedin.svg" alt="LinkedIn" width="112" height="40" /></a>
+  <a href="https://t.me/contact_vasiliev_dmitry"><img src="./profile/contact-telegram.svg?v=4" alt="Telegram" width="113" height="40" /></a>
+  <a href="mailto:contact.vasiliev.dmitry@gmail.com"><img src="./profile/contact-email.svg?v=4" alt="Email" width="91" height="40" /></a>
+  <a href="https://www.linkedin.com/in/dmitry-vasiliev/"><img src="./profile/contact-linkedin.svg?v=4" alt="LinkedIn" width="110" height="40" /></a>
 </p>
 
 <p>
-  <a href="https://hh.ru/resume/6e603952ff0b05b29a0039ed1f774451306375"><img src="./profile/contact-resume.svg" alt="HH.ru resume" width="128" height="40" /></a>
-  <a href="https://career.habr.com/swimmwatch"><img src="./profile/contact-habr.svg" alt="Habr Career" width="132" height="40" /></a>
+  <a href="https://hh.ru/resume/6e603952ff0b05b29a0039ed1f774451306375"><img src="./profile/contact-resume.svg?v=4" alt="HH.ru resume" width="142" height="40" /></a>
+  <a href="https://career.habr.com/swimmwatch"><img src="./profile/contact-habr.svg?v=4" alt="Habr Career" width="131" height="40" /></a>
 </p>
 
 ## About me
