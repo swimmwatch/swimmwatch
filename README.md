@@ -15,6 +15,7 @@
 <p>
   <a href="https://hh.ru/resume/6e603952ff0b05b29a0039ed1f774451306375"><img src="./profile/contact-resume.svg?v=4" alt="HH.ru resume" width="142" height="40" /></a>
   <a href="https://career.habr.com/swimmwatch"><img src="./profile/contact-habr.svg?v=4" alt="Habr Career" width="131" height="40" /></a>
+  <a href="https://setka.ru/users/197d8c1b-0481-4e2c-9aa1-955ffd160c09"><img src="./profile/contact-setka.svg?v=2" alt="Setka" width="91" height="40" /></a>
 </p>
 
 ## About me
