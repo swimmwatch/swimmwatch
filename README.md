@@ -41,48 +41,27 @@ My open-source work spans **AI and agent-development tools, MCP servers, and Age
 ## Tech stack
 
 <details>
-<summary>Full stack — backend, infrastructure, AI, and testing</summary>
-
+<summary>Explore the toolkit</summary>
 <p>
-  <img src="./profile/stack/languages.svg" alt="" width="26" height="26" /> <strong>Languages &amp; web</strong><br />
-  <code>Python</code> <code>Go</code> <code>JavaScript</code> <code>HTML</code> <code>CSS</code>
+<picture>
+  <source media="(max-width: 420px)" srcset="./profile/toolkit-mobile.svg?v=1" />
+  <source media="(max-width: 600px)" srcset="./profile/toolkit-mobile-wide.svg?v=1" />
+  <img src="./profile/toolkit.svg?v=1" alt="Engineering toolkit: languages and web, backend, datastores, messaging, infrastructure, observability, AI and agent tooling, and testing. A complete text version follows." width="100%" />
+</picture>
 </p>
-
-<p>
-  <img src="./profile/stack/backend.svg" alt="" width="26" height="26" /> <strong>Backend</strong><br />
-  <code>FastAPI</code> <code>Django</code> <code>Django&nbsp;Ninja</code> <code>Celery</code> <code>TaskIQ</code> <code>asyncio</code>
-</p>
-
-<p>
-  <img src="./profile/stack/data.svg" alt="" width="26" height="26" /> <strong>Datastores</strong><br />
-  <code>PostgreSQL</code> <code>Redis</code> <code>MongoDB</code> <code>Elasticsearch</code> <code>OpenSearch</code> <code>Weaviate</code>
-</p>
-
-<p>
-  <img src="./profile/stack/messaging.svg" alt="" width="26" height="26" /> <strong>Messaging</strong><br />
-  <code>RabbitMQ</code> <code>Kafka</code>
-</p>
-
-<p>
-  <img src="./profile/stack/infrastructure.svg" alt="" width="26" height="26" /> <strong>Infrastructure &amp; delivery</strong><br />
-  <code>Docker</code> <code>Kubernetes</code> <code>Helm</code> <code>Terraform</code> <code>Ansible</code> <code>Nginx</code> <code>Linux</code> <code>GitLab&nbsp;CI</code> <code>GitHub&nbsp;Actions</code> <code>S3</code>
-</p>
-
-<p>
-  <img src="./profile/stack/observability.svg" alt="" width="26" height="26" /> <strong>Observability</strong><br />
-  <code>Prometheus</code> <code>Grafana</code> <code>Alertmanager</code> <code>Loki</code>
-</p>
-
-<p>
-  <img src="./profile/stack/agents.svg" alt="" width="26" height="26" /> <strong>AI &amp; agent tooling</strong><br />
-  <code>Agent&nbsp;Skills</code> <code>RAG</code> <code>MCP</code> <code>LangChain</code> <code>LangGraph</code>
-</p>
-
-<p>
-  <img src="./profile/stack/testing.svg" alt="" width="26" height="26" /> <strong>Testing</strong><br />
-  <code>Pytest</code> <code>Selenium</code> <code>Playwright</code>
-</p>
-
+<details>
+<summary>Text version</summary>
+<ul>
+<li><strong>Languages &amp; web:</strong> Python, Go, JavaScript, HTML, CSS</li>
+<li><strong>Backend:</strong> FastAPI, Django, Django Ninja, Celery, TaskIQ, asyncio</li>
+<li><strong>Datastores:</strong> PostgreSQL, Redis, MongoDB, Elasticsearch, OpenSearch, Weaviate</li>
+<li><strong>Messaging:</strong> RabbitMQ, Kafka</li>
+<li><strong>Infrastructure &amp; delivery:</strong> Docker, Kubernetes, Helm, Terraform, Ansible, Nginx, Linux, GitLab CI, GitHub Actions, S3</li>
+<li><strong>Observability:</strong> Prometheus, Grafana, Alertmanager, Loki</li>
+<li><strong>AI &amp; agent tooling:</strong> Agent Skills, RAG, MCP, LangChain, LangGraph</li>
+<li><strong>Testing:</strong> Pytest, Selenium, Playwright</li>
+</ul>
+</details>
 </details>
 
 ## Writing

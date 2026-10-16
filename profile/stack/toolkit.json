@@ -1,0 +1,222 @@
+[
+  {
+    "title": "Languages & web",
+    "tools": [
+      {
+        "name": "Python",
+        "icon": "python"
+      },
+      {
+        "name": "Go",
+        "icon": "go"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "javascript"
+      },
+      {
+        "name": "HTML",
+        "icon": "html5"
+      },
+      {
+        "name": "CSS",
+        "icon": "css"
+      }
+    ],
+    "id": "languages",
+    "accent": "teal"
+  },
+  {
+    "title": "Backend",
+    "tools": [
+      {
+        "name": "FastAPI",
+        "icon": "fastapi"
+      },
+      {
+        "name": "Django",
+        "icon": "django"
+      },
+      {
+        "name": "Django Ninja",
+        "icon": "ninja"
+      },
+      {
+        "name": "Celery",
+        "icon": "celery"
+      },
+      {
+        "name": "TaskIQ",
+        "icon": "tasks"
+      },
+      {
+        "name": "asyncio",
+        "icon": "async"
+      }
+    ],
+    "id": "backend",
+    "accent": "blue"
+  },
+  {
+    "title": "Datastores",
+    "tools": [
+      {
+        "name": "PostgreSQL",
+        "icon": "postgresql"
+      },
+      {
+        "name": "Redis",
+        "icon": "redis"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "mongodb"
+      },
+      {
+        "name": "Elasticsearch",
+        "icon": "elasticsearch"
+      },
+      {
+        "name": "OpenSearch",
+        "icon": "opensearch"
+      },
+      {
+        "name": "Weaviate",
+        "icon": "vector"
+      }
+    ],
+    "id": "data",
+    "accent": "blue"
+  },
+  {
+    "title": "Messaging",
+    "tools": [
+      {
+        "name": "RabbitMQ",
+        "icon": "rabbitmq"
+      },
+      {
+        "name": "Kafka",
+        "icon": "apachekafka"
+      }
+    ],
+    "id": "messaging",
+    "accent": "blue"
+  },
+  {
+    "title": "Infrastructure & delivery",
+    "tools": [
+      {
+        "name": "Docker",
+        "icon": "docker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "kubernetes"
+      },
+      {
+        "name": "Helm",
+        "icon": "helm"
+      },
+      {
+        "name": "Terraform",
+        "icon": "terraform"
+      },
+      {
+        "name": "Ansible",
+        "icon": "ansible"
+      },
+      {
+        "name": "Nginx",
+        "icon": "nginx"
+      },
+      {
+        "name": "Linux",
+        "icon": "linux"
+      },
+      {
+        "name": "GitLab CI",
+        "icon": "gitlab"
+      },
+      {
+        "name": "GitHub Actions",
+        "icon": "githubactions"
+      },
+      {
+        "name": "S3",
+        "icon": "bucket"
+      }
+    ],
+    "id": "infrastructure",
+    "accent": "blue"
+  },
+  {
+    "title": "Observability",
+    "tools": [
+      {
+        "name": "Prometheus",
+        "icon": "prometheus"
+      },
+      {
+        "name": "Grafana",
+        "icon": "grafana"
+      },
+      {
+        "name": "Alertmanager",
+        "icon": "bell"
+      },
+      {
+        "name": "Loki",
+        "icon": "logs"
+      }
+    ],
+    "id": "observability",
+    "accent": "teal"
+  },
+  {
+    "title": "AI & agent tooling",
+    "tools": [
+      {
+        "name": "Agent Skills",
+        "icon": "skills"
+      },
+      {
+        "name": "RAG",
+        "icon": "rag"
+      },
+      {
+        "name": "MCP",
+        "icon": "modelcontextprotocol"
+      },
+      {
+        "name": "LangChain",
+        "icon": "langchain"
+      },
+      {
+        "name": "LangGraph",
+        "icon": "langgraph"
+      }
+    ],
+    "id": "agents",
+    "accent": "purple"
+  },
+  {
+    "title": "Testing",
+    "tools": [
+      {
+        "name": "Pytest",
+        "icon": "pytest"
+      },
+      {
+        "name": "Selenium",
+        "icon": "selenium"
+      },
+      {
+        "name": "Playwright",
+        "icon": "masks"
+      }
+    ],
+    "id": "testing",
+    "accent": "teal"
+  }
+]
