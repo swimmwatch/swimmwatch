@@ -41,7 +41,7 @@ My open-source work spans **AI and agent-development tools, MCP servers, and Age
 ## Tech stack
 
 <details>
-<summary>Explore the toolkit</summary>
+<summary>Backend · Infrastructure · AI · Testing</summary>
 <p>
 <picture>
   <source media="(max-width: 420px)" srcset="./profile/toolkit-mobile.svg?v=1" />
