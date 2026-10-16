@@ -24,7 +24,7 @@
 
 **Tech Lead experience:** led **3 backend developers and 1 ML developer** on an AI-agent platform. I mentor engineers and conduct technical interviews.
 
-I develop **Agent Skills, custom MCP (Model Context Protocol) tools, and agent workflows** for task decomposition, dependency planning, context gathering, and development automation.
+I develop **Agent Skills, custom MCP tools, and agent workflows** for task decomposition, dependency planning, context gathering, and development automation.
 
 I treat **engineering processes** as part of the product: I improve CI pipelines, code review, and development and task-management workflows to make collaboration clearer and delivery more reliable.
 
