@@ -15,6 +15,33 @@ SVG = "http://www.w3.org/2000/svg"
 ET.register_namespace("", SVG)
 
 
+def adapt_theme(content):
+    """Let embedded SVGs inherit GitHub's color scheme without picture rewrites."""
+    palette = {
+        "line": ("#35516e", "#a4bcd2"),
+        "blue": ("#85baff", "#276cae"),
+        "node": ("#14273b", "#ffffff"),
+        "background": ("#0b1625", "#eef5fb"),
+        "muted": ("#9cb1ca", "#4c6680"),
+        "foreground": ("#eef5ff", "#172f48"),
+        "accent": ("#65e0c0", "#087c66"),
+        "purple": ("#c5a4fa", "#8053ac"),
+    }
+    root = ET.fromstring(content)
+    for style in root.findall(f"{{{SVG}}}style[@id='adaptive-theme']"):
+        root.remove(style)
+    content = ET.tostring(root, encoding="unicode")
+    for name, (dark, _) in palette.items():
+        content = content.replace(dark, f"var(--{name})")
+    root = ET.fromstring(content)
+    style = ET.Element(f"{{{SVG}}}style", {"id": "adaptive-theme"})
+    dark = ";".join(f"--{name}:{colors[0]}" for name, colors in palette.items())
+    light = ";".join(f"--{name}:{colors[1]}" for name, colors in palette.items())
+    style.text = f":root{{{dark}}}@media(prefers-color-scheme:light){{:root{{{light}}}}}"
+    root.insert(2, style)
+    return ET.tostring(root, encoding="unicode") + "\n"
+
+
 def fetch(path):
     headers = {
         "Accept": "application/vnd.github+json",
@@ -153,7 +180,8 @@ def render_banner(path, metrics, languages, date):
             node.set("y", str(y))
             node.set("font-size", "11")
     root.append(summary)
-    return ET.tostring(root, encoding="unicode") + "\n"
+    content = ET.tostring(root, encoding="unicode") + "\n"
+    return adapt_theme(content) if dark else content
 
 
 def main():

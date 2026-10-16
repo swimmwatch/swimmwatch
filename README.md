@@ -1,12 +1,8 @@
 <p>
 <picture>
-  <source media="(min-width: 481px) and (max-width: 600px) and (prefers-color-scheme: dark)" srcset="./profile/banner-mobile-wide-dark.svg" />
-  <source media="(min-width: 481px) and (max-width: 600px) and (prefers-color-scheme: light)" srcset="./profile/banner-mobile-wide-light.svg" />
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./profile/banner-mobile-dark.svg" />
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./profile/banner-mobile-light.svg" />
-  <source media="(prefers-color-scheme: dark)" srcset="./profile/banner-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./profile/banner-light.svg" />
-  <img src="./profile/banner-dark.svg" alt="Dmitry Vasiliev — Backend Engineer. Architecture, AI and developer tools. Animated backend architecture with public GitHub metrics and repository languages." width="100%" />
+  <source media="(max-width: 480px)" srcset="./profile/banner-mobile-dark.svg?v=2" />
+  <source media="(max-width: 600px)" srcset="./profile/banner-mobile-wide-dark.svg?v=2" />
+  <img src="./profile/banner-dark.svg?v=2" alt="Dmitry Vasiliev — Backend Engineer. Architecture, AI and developer tools. Animated backend architecture with public GitHub metrics and repository languages." width="100%" />
 </picture>
 </p>
 
