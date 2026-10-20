@@ -44,23 +44,28 @@ My open-source work spans **AI and agent-development tools, MCP servers, and Age
 <summary>Backend · Infrastructure · AI · Testing</summary>
 <p>
 <picture>
-  <source media="(max-width: 420px)" srcset="./profile/toolkit-mobile.svg?v=1" />
-  <source media="(max-width: 600px)" srcset="./profile/toolkit-mobile-wide.svg?v=1" />
-  <img src="./profile/toolkit.svg?v=1" alt="Engineering toolkit: languages and web, backend, datastores, messaging, infrastructure, observability, AI and agent tooling, and testing. A complete text version follows." width="100%" />
+  <source media="(max-width: 420px)" srcset="./profile/toolkit-mobile.svg?v=2" />
+  <source media="(max-width: 600px)" srcset="./profile/toolkit-mobile-wide.svg?v=2" />
+  <img src="./profile/toolkit.svg?v=2" alt="Technology cards: separate Python, Go, and web stacks, followed by shared databases, messaging, infrastructure, delivery, security, observability, AI, and browser testing. A complete text version follows." width="100%" />
 </picture>
 </p>
 <details>
 <summary>Text version</summary>
+<!-- TECH_STACK_START -->
 <ul>
-<li><strong>Languages &amp; web:</strong> Python, Go, JavaScript, HTML, CSS</li>
-<li><strong>Backend:</strong> FastAPI, Django, Django Ninja, Celery, TaskIQ, asyncio</li>
-<li><strong>Datastores:</strong> PostgreSQL, Redis, MongoDB, Elasticsearch, OpenSearch, Weaviate</li>
+<li><strong>Python:</strong> Python, FastAPI, Django, Django Ninja, Django REST Framework, asyncio, Celery, TaskIQ, Pydantic, SQLAlchemy, Alembic, PydanticAI, FastMCP, Pytest, Mypy</li>
+<li><strong>Go:</strong> Go, Echo</li>
+<li><strong>Web:</strong> JavaScript, HTML, CSS</li>
+<li><strong>Databases &amp; storage:</strong> SQL, PostgreSQL, Redis, MongoDB, PostGIS, Elasticsearch, OpenSearch, Weaviate, MinIO</li>
 <li><strong>Messaging:</strong> RabbitMQ, Kafka</li>
-<li><strong>Infrastructure &amp; delivery:</strong> Docker, Kubernetes, Helm, Terraform, Ansible, Nginx, Linux, GitLab CI, GitHub Actions, S3</li>
-<li><strong>Observability:</strong> Prometheus, Grafana, Alertmanager, Loki</li>
-<li><strong>AI &amp; agent tooling:</strong> Agent Skills, RAG, MCP, LangChain, LangGraph</li>
-<li><strong>Testing:</strong> Pytest, Selenium, Playwright</li>
+<li><strong>Infrastructure:</strong> Docker, Kubernetes, Helm, Terraform, Ansible, Nginx, Linux, S3, AWS</li>
+<li><strong>Delivery &amp; automation:</strong> Git, GitLab CI, GitHub Actions, Azure DevOps, Danger, dependabot-gitlab</li>
+<li><strong>Identity &amp; secrets:</strong> Keycloak, HashiCorp Vault, Azure Key Vault</li>
+<li><strong>Observability:</strong> Prometheus, Grafana, Alertmanager, Loki, Logfire</li>
+<li><strong>AI &amp; agent tooling:</strong> Agent Skills, MCP, RAG, LangChain, LangGraph</li>
+<li><strong>Browser testing:</strong> Selenium, Playwright</li>
 </ul>
+<!-- TECH_STACK_END -->
 </details>
 </details>
 

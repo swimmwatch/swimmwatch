@@ -1,222 +1,288 @@
 [
   {
-    "title": "Languages & web",
+    "id": "python",
+    "title": "Python",
+    "scope": "language",
+    "accent": "teal",
     "tools": [
       {
         "name": "Python",
-        "icon": "python"
+        "section": "Language"
       },
-      {
-        "name": "Go",
-        "icon": "go"
-      },
-      {
-        "name": "JavaScript",
-        "icon": "javascript"
-      },
-      {
-        "name": "HTML",
-        "icon": "html5"
-      },
-      {
-        "name": "CSS",
-        "icon": "css"
-      }
-    ],
-    "id": "languages",
-    "accent": "teal"
-  },
-  {
-    "title": "Backend",
-    "tools": [
       {
         "name": "FastAPI",
-        "icon": "fastapi"
+        "section": "API & frameworks"
       },
       {
         "name": "Django",
-        "icon": "django"
+        "section": "API & frameworks"
       },
       {
         "name": "Django Ninja",
-        "icon": "ninja"
+        "section": "API & frameworks"
       },
       {
-        "name": "Celery",
-        "icon": "celery"
-      },
-      {
-        "name": "TaskIQ",
-        "icon": "tasks"
+        "name": "Django REST Framework",
+        "section": "API & frameworks"
       },
       {
         "name": "asyncio",
-        "icon": "async"
-      }
-    ],
-    "id": "backend",
-    "accent": "blue"
-  },
-  {
-    "title": "Datastores",
-    "tools": [
-      {
-        "name": "PostgreSQL",
-        "icon": "postgresql"
+        "section": "Async & tasks"
       },
       {
-        "name": "Redis",
-        "icon": "redis"
+        "name": "Celery",
+        "section": "Async & tasks"
       },
       {
-        "name": "MongoDB",
-        "icon": "mongodb"
+        "name": "TaskIQ",
+        "section": "Async & tasks"
       },
       {
-        "name": "Elasticsearch",
-        "icon": "elasticsearch"
+        "name": "Pydantic",
+        "section": "Models & migrations"
       },
       {
-        "name": "OpenSearch",
-        "icon": "opensearch"
+        "name": "SQLAlchemy",
+        "section": "Models & migrations"
       },
       {
-        "name": "Weaviate",
-        "icon": "vector"
-      }
-    ],
-    "id": "data",
-    "accent": "blue"
-  },
-  {
-    "title": "Messaging",
-    "tools": [
-      {
-        "name": "RabbitMQ",
-        "icon": "rabbitmq"
+        "name": "Alembic",
+        "section": "Models & migrations"
       },
       {
-        "name": "Kafka",
-        "icon": "apachekafka"
-      }
-    ],
-    "id": "messaging",
-    "accent": "blue"
-  },
-  {
-    "title": "Infrastructure & delivery",
-    "tools": [
-      {
-        "name": "Docker",
-        "icon": "docker"
+        "name": "PydanticAI",
+        "section": "Agent frameworks"
       },
       {
-        "name": "Kubernetes",
-        "icon": "kubernetes"
+        "name": "FastMCP",
+        "section": "Agent frameworks"
       },
-      {
-        "name": "Helm",
-        "icon": "helm"
-      },
-      {
-        "name": "Terraform",
-        "icon": "terraform"
-      },
-      {
-        "name": "Ansible",
-        "icon": "ansible"
-      },
-      {
-        "name": "Nginx",
-        "icon": "nginx"
-      },
-      {
-        "name": "Linux",
-        "icon": "linux"
-      },
-      {
-        "name": "GitLab CI",
-        "icon": "gitlab"
-      },
-      {
-        "name": "GitHub Actions",
-        "icon": "githubactions"
-      },
-      {
-        "name": "S3",
-        "icon": "bucket"
-      }
-    ],
-    "id": "infrastructure",
-    "accent": "blue"
-  },
-  {
-    "title": "Observability",
-    "tools": [
-      {
-        "name": "Prometheus",
-        "icon": "prometheus"
-      },
-      {
-        "name": "Grafana",
-        "icon": "grafana"
-      },
-      {
-        "name": "Alertmanager",
-        "icon": "bell"
-      },
-      {
-        "name": "Loki",
-        "icon": "logs"
-      }
-    ],
-    "id": "observability",
-    "accent": "teal"
-  },
-  {
-    "title": "AI & agent tooling",
-    "tools": [
-      {
-        "name": "Agent Skills",
-        "icon": "skills"
-      },
-      {
-        "name": "RAG",
-        "icon": "rag"
-      },
-      {
-        "name": "MCP",
-        "icon": "modelcontextprotocol"
-      },
-      {
-        "name": "LangChain",
-        "icon": "langchain"
-      },
-      {
-        "name": "LangGraph",
-        "icon": "langgraph"
-      }
-    ],
-    "id": "agents",
-    "accent": "purple"
-  },
-  {
-    "title": "Testing",
-    "tools": [
       {
         "name": "Pytest",
-        "icon": "pytest"
+        "section": "Quality"
       },
       {
-        "name": "Selenium",
-        "icon": "selenium"
-      },
-      {
-        "name": "Playwright",
-        "icon": "masks"
+        "name": "Mypy",
+        "section": "Quality"
       }
-    ],
+    ]
+  },
+  {
+    "id": "go",
+    "title": "Go",
+    "scope": "language",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "Go"
+      },
+      {
+        "name": "Echo"
+      }
+    ]
+  },
+  {
+    "id": "web",
+    "title": "Web",
+    "scope": "language",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "JavaScript"
+      },
+      {
+        "name": "HTML"
+      },
+      {
+        "name": "CSS"
+      }
+    ]
+  },
+  {
+    "id": "data",
+    "title": "Databases & storage",
+    "scope": "shared",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "SQL"
+      },
+      {
+        "name": "PostgreSQL"
+      },
+      {
+        "name": "Redis"
+      },
+      {
+        "name": "MongoDB"
+      },
+      {
+        "name": "PostGIS"
+      },
+      {
+        "name": "Elasticsearch"
+      },
+      {
+        "name": "OpenSearch"
+      },
+      {
+        "name": "Weaviate"
+      },
+      {
+        "name": "MinIO"
+      }
+    ]
+  },
+  {
+    "id": "messaging",
+    "title": "Messaging",
+    "scope": "shared",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "RabbitMQ"
+      },
+      {
+        "name": "Kafka"
+      }
+    ]
+  },
+  {
+    "id": "infrastructure",
+    "title": "Infrastructure",
+    "scope": "shared",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "Docker"
+      },
+      {
+        "name": "Kubernetes"
+      },
+      {
+        "name": "Helm"
+      },
+      {
+        "name": "Terraform"
+      },
+      {
+        "name": "Ansible"
+      },
+      {
+        "name": "Nginx"
+      },
+      {
+        "name": "Linux"
+      },
+      {
+        "name": "S3"
+      },
+      {
+        "name": "AWS"
+      }
+    ]
+  },
+  {
+    "id": "delivery",
+    "title": "Delivery & automation",
+    "scope": "shared",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "Git"
+      },
+      {
+        "name": "GitLab CI"
+      },
+      {
+        "name": "GitHub Actions"
+      },
+      {
+        "name": "Azure DevOps"
+      },
+      {
+        "name": "Danger"
+      },
+      {
+        "name": "dependabot-gitlab"
+      }
+    ]
+  },
+  {
+    "id": "security",
+    "title": "Identity & secrets",
+    "scope": "shared",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "Keycloak"
+      },
+      {
+        "name": "HashiCorp Vault"
+      },
+      {
+        "name": "Azure Key Vault"
+      }
+    ]
+  },
+  {
+    "id": "observability",
+    "title": "Observability",
+    "scope": "shared",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "Prometheus"
+      },
+      {
+        "name": "Grafana"
+      },
+      {
+        "name": "Alertmanager"
+      },
+      {
+        "name": "Loki"
+      },
+      {
+        "name": "Logfire"
+      }
+    ]
+  },
+  {
+    "id": "agents",
+    "title": "AI & agent tooling",
+    "scope": "shared",
+    "accent": "purple",
+    "tools": [
+      {
+        "name": "Agent Skills"
+      },
+      {
+        "name": "MCP"
+      },
+      {
+        "name": "RAG"
+      },
+      {
+        "name": "LangChain"
+      },
+      {
+        "name": "LangGraph"
+      }
+    ]
+  },
+  {
     "id": "testing",
-    "accent": "teal"
+    "title": "Browser testing",
+    "scope": "shared",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "Selenium"
+      },
+      {
+        "name": "Playwright"
+      }
+    ]
   }
 ]
