@@ -44,9 +44,9 @@ My open-source work spans **AI and agent-development tools, MCP servers, and Age
 <summary>Backend · Infrastructure · AI · Testing</summary>
 <p>
 <picture>
-  <source media="(max-width: 420px)" srcset="./profile/toolkit-mobile.svg?v=2" />
-  <source media="(max-width: 600px)" srcset="./profile/toolkit-mobile-wide.svg?v=2" />
-  <img src="./profile/toolkit.svg?v=2" alt="Technology cards: separate Python, Go, and web stacks, followed by shared databases, messaging, infrastructure, delivery, security, observability, AI, and browser testing. A complete text version follows." width="100%" />
+  <source media="(max-width: 420px)" srcset="./profile/toolkit-mobile.svg?v=3" />
+  <source media="(max-width: 600px)" srcset="./profile/toolkit-mobile-wide.svg?v=3" />
+  <img src="./profile/toolkit.svg?v=3" alt="Technology cards: separate Python, Go, TypeScript, and web stacks, followed by shared databases, messaging, infrastructure, delivery, build and dependencies, security, observability, AI, and browser testing. A complete text version follows." width="100%" />
 </picture>
 </p>
 <details>
@@ -55,11 +55,13 @@ My open-source work spans **AI and agent-development tools, MCP servers, and Age
 <ul>
 <li><strong>Python:</strong> Python, FastAPI, Django, Django Ninja, Django REST Framework, asyncio, Celery, TaskIQ, Pydantic, SQLAlchemy, Alembic, PydanticAI, FastMCP, Pytest, Mypy</li>
 <li><strong>Go:</strong> Go, Echo</li>
+<li><strong>TypeScript:</strong> TypeScript, Node.js</li>
 <li><strong>Web:</strong> JavaScript, HTML, CSS</li>
 <li><strong>Databases &amp; storage:</strong> SQL, PostgreSQL, Redis, MongoDB, PostGIS, Elasticsearch, OpenSearch, Weaviate, MinIO</li>
 <li><strong>Messaging:</strong> RabbitMQ, Kafka</li>
 <li><strong>Infrastructure:</strong> Docker, Kubernetes, Helm, Terraform, Ansible, Nginx, Linux, S3, AWS</li>
 <li><strong>Delivery &amp; automation:</strong> Git, GitLab CI, GitHub Actions, Azure DevOps, Danger, dependabot-gitlab</li>
+<li><strong>Build &amp; dependencies:</strong> uv, Poetry</li>
 <li><strong>Identity &amp; secrets:</strong> Keycloak, HashiCorp Vault, Azure Key Vault</li>
 <li><strong>Observability:</strong> Prometheus, Grafana, Alertmanager, Loki, Logfire</li>
 <li><strong>AI &amp; agent tooling:</strong> Agent Skills, MCP, RAG, LangChain, LangGraph</li>

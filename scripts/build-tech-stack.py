@@ -20,6 +20,8 @@ PALETTE = {
     "purple": ("#c5a4fa", "#8053ac"),
 }
 GLYPHS = {
+    "typescript": '<path d="M14 2H4v22h16V8Z M14 2v6h6 M9 12l-3 4 3 4m6-8 3 4-3 4"/>',
+    "packaging": '<path d="m12 2 10 6v12l-10 4-10-4V8Zm0 12v10M2 8l10 6 10-6M7 5l10 6v5"/>',
     "web": '<path d="m8 5-6 7 6 7m8-14 6 7-6 7m-3-17-2 20"/>',
     "data": '<ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14c0 4 18 4 18 0V5M3 12c0 4 18 4 18 0"/>',
     "messaging": '<rect x="2" y="2" width="7" height="7" rx="2"/><rect x="15" y="15" width="7" height="7" rx="2"/><path d="M5 9v8h10M9 5h9v10"/>',
@@ -95,28 +97,31 @@ def render(categories, symbols, width):
 
     y += place(by_id["python"], margin, y, inner, 2 if desktop else 1) + gap
     half = (inner - gap) / 2
-    if desktop or width >= 480:
-        heights = [place(by_id[key], margin + index * (half + gap), y, half) for index, key in enumerate(("go", "web"))]
-        y += max(heights) + 38
-    else:
-        for key in ("go", "web"):
-            y += place(by_id[key], margin, y, inner) + gap
-        y += 26
+
+    def place_row(row, top):
+        card_width = half if len(row) == 2 else inner
+        heights = [place(category, margin + index * (card_width + gap), top, card_width) for index, category in enumerate(row)]
+        for index in range(1, len(row) + 1):
+            category, x, card_top, w, _, cells = positions[-index]
+            positions[-index] = (category, x, card_top, w, max(heights), cells)
+        return max(heights)
+
+    language_columns = 2 if desktop or width >= 480 else 1
+    languages = [category for category in categories if category["scope"] == "language" and category["id"] != "python"]
+    for start in range(0, len(languages), language_columns):
+        row = languages[start:start + language_columns]
+        y += place_row(row, y) + gap
+    y += 26
     shared_label_y = y
     y += 26
     shared = [category for category in categories if category["scope"] == "shared"]
     columns = 2 if desktop else 1
-    card_width = half if desktop else inner
     for start in range(0, len(shared), columns):
         row = shared[start:start + columns]
-        heights = [place(category, margin + index * (card_width + gap), y, card_width) for index, category in enumerate(row)]
-        for index in range(1, len(row) + 1):
-            category, x, top, w, _, cells = positions[-index]
-            positions[-index] = (category, x, top, w, max(heights), cells)
-        y += max(heights) + gap
+        y += place_row(row, y) + gap
     height = y - gap + margin
     root = ET.Element(f"{{{SVG}}}svg", {"width": str(width), "height": str(height), "viewBox": f"0 0 {width} {height}", "role": "img", "aria-labelledby": "title desc", "font-family": "Arial,Helvetica,sans-serif"})
-    add(root, "title", "Technology stacks: Python, Go, web, and shared tools", id="title")
+    add(root, "title", "Technology stacks: Python, Go, TypeScript, web, and shared tools", id="title")
     add(root, "desc", "; ".join(category["title"] + ": " + ", ".join(tool["name"] for tool in category["tools"]) for category in categories), id="desc")
     defaults = ";".join(f"--{key}:{value[0]}" for key, value in PALETTE.items())
     light = ";".join(f"--{key}:{value[1]}" for key, value in PALETTE.items())

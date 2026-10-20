@@ -82,6 +82,20 @@
     ]
   },
   {
+    "id": "typescript",
+    "title": "TypeScript",
+    "scope": "language",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "TypeScript"
+      },
+      {
+        "name": "Node.js"
+      }
+    ]
+  },
+  {
     "id": "web",
     "title": "Web",
     "scope": "language",
@@ -205,6 +219,20 @@
       },
       {
         "name": "dependabot-gitlab"
+      }
+    ]
+  },
+  {
+    "id": "packaging",
+    "title": "Build & dependencies",
+    "scope": "shared",
+    "accent": "teal",
+    "tools": [
+      {
+        "name": "uv"
+      },
+      {
+        "name": "Poetry"
       }
     ]
   },
